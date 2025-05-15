@@ -27,8 +27,9 @@ Minuit2FHistExt = ["FHist"]
 Minuit2PlotsExt = ["Plots", "FHist"]
 
 [compat]
-CxxWrap = "0.16"
+CxxWrap = "0.16, 0.17"
 Distributions = "0.25.117"
+FHist = "0.11"
 IterTools = "1.10.0"
 LinearAlgebra = "1.11.0"
 Minuit2_Julia_Wrapper_jll = "0.3.0"
@@ -39,7 +40,6 @@ Random = "1.11.0"
 SpecialFunctions = "2.5.0"
 StatsBase = "0.34.4"
 julia = "1.9"
-FHist = "0.11"
 
 [extras]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
